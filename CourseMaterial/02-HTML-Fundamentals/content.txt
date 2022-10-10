@@ -2,7 +2,7 @@
 
 The Basic Language of the Web: HTML
 
-Posted by Laura Jones on Monday, June 21st 2027
+  Posted by Laura Jones on Monday, June 21st 2027
 
 All modern websites and web applications are built using three fundamental technologies: HTML, CSS and JavaScript. These are the languages of the web.
 
