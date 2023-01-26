@@ -10,14 +10,24 @@
       <section id="currentTime"></section>
       <section id="currentDate"></section>
     </header>
-    <button onclick="saveCurrentTime()">Save Current Time</button>
+    <!-- <button onclick="clearLocalStorage()">Clear Local Storage</button>
+    <button onclick="saveCurrentDateTime()">Save Current Date and Time</button>
+    <button onclick="stopElapsedTime()">Stop Elapsed Time</button> -->
 
-    <section id="currentDateTime"></section>
-    <table id="timeTable">
+    <button id="clearDateTime">Clear Date and Time</button>
+    <button id="saveDateTime">Save Current Date and Time</button>
+    <button id="stopElapsedTime">Stop Elapsed Time</button>
+    <p id="elapsedTime">Time Elapsed: 0 sec</p>
+    <!-- Create a table to display the saved date and time -->
+    <table id="dateTimeTable">
       <tr>
+        <th>Date</th>
         <th>Time</th>
-      </tr>
-    </table>
+        <th>Stop Time</th>
+        <th>Elapsed Time</th>
+    </tr>
+    
+
     <script src="script.js"></script>
   </body>
 </html>
